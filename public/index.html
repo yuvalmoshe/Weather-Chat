@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel = "stylesheet" type="text/css" media="screen"  href= "\bootstrap\dist\css\bootstrap.css" />
+</head>
+<body class="body">
+    <br>
+    <br>
+    <h2 id="weather">Weather Chat</h2> 
+    <br>
+    <form class="example">
+    <input id="city" type="text" placeholder="Add a city name" class="form-control" >
+    <button id= button1 type="button">Get Temp</button>
+    </form>
+<br>
+<br>
+<hr>
+    <div id=information></div>
+    <script id="temp-template" type=text/x-handlebars-template>
+    {{#each weather}}
+        <ul class= "information1" data-id="{{id}}">
+        <div id= "myCity">{{cityName}}</div><br>
+        <li>Temp: {{temp}} C° </li>
+        <li>Country: {{country}}</li>
+        {{#each comments}}
+        <li>{{text}}</li>
+        {{/each}}
+        <br>
+        <form class="examples">
+                <input id="comment" type="text" placeholder="Comment about the weather {{cityName}}?" class="form-control" >
+                <button class=button2 type="button">comment</button>
+        </form>
+        <br>
+        <br>
+            </ul>
+    {{/each}}
+    </script>
+    <br>
+
+
+    <script src= "\jquery\dist\jquery.js"></script>
+    <script src="main.js" type="module"></script>
+    <script src= "\handlebars\dist\handlebars.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+#city {
+    width: 50%;
+}
+
+.information1 {
+    border-radius: 10px;
+    width: 55%;
+    height: 55%;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    border: 2px solid beige;
+    font-family: cursive;
+background-color: beige;
+
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px  rgba(209, 208, 208, 0.938); 
+    float: left;
+    width: 50%;
+    background: #f1f1f1;
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    font-family: cursive;
+
+  }
+
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 6px;
+    background: rgb(90, 11, 90);
+    color: white;
+    font-size: 17px;
+    border: 1px ;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 1px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-left-radius: 0px 0px; 
+    font-family: cursive;
+
+  }
+
+  .examples {
+      width: 70%;
+  }
+
+  
+form.examples input[type=text] {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px  rgba(209, 208, 208, 0.938); 
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+    border-radius: 0px;
+    font-family: cursive;
+    border-top-left-radius: 0px;
+  }
+
+  form.examples button {
+    font-family: cursive;
+    float: left;
+    width: 30%;
+    padding: 6px;
+    background: rgb(170, 83, 141);
+    color: white;
+    font-size: 17px;
+    border: 1px ;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 1px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-left-radius: 0px 0px; 
+  }
+  
+  #weather {
+      font-size: 40px;
+      font-family: cursive;
+      
+  }
+
+  #myCity {
+      font-size: 25px;
+      color: rgb(170, 83, 141);
+  }
+
+  .body {
+    height: 620px;  
+    background-image: url("https://dumielauxepices.net/sites/default/files/drawn-waterdrop-transparent-cartoon-water-586018-5825510.png")
+  }
